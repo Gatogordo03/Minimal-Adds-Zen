@@ -2,6 +2,10 @@
 
 Minimal exit menu buttons with acrylic effects and centered URL bar text for Zen Browser.
 
+<p align="center">
+  <img src="src/Minimal-Adds-img.png" width="340rem">
+</p>
+
 ## Features
 
 **Exit Menu**
