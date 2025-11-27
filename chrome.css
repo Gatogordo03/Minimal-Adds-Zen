@@ -43,26 +43,26 @@
         }
     }
     
-    .titlebar-min:hover {
+    .titlebar-max:hover, .titlebar-restore:hover {
         background-color: rgba(255, 234, 0, 0.4) !important;
         backdrop-filter: blur(12px) saturate(200%) !important;
         border-color: rgba(255, 234, 0, 0.4) !important;
     }
     
     @media (-moz-bool-pref: "mod.minimal-adds.exit-menu-box-shadow") {
-        .titlebar-min:hover {
+        .titlebar-max:hover, .titlebar-restore:hover {
             box-shadow: 0 2px 12px rgba(255, 234, 0, 0.3) !important;
         }
     }
 
-    .titlebar-max:hover, .titlebar-restore:hover {
+    .titlebar-min:hover {
         background-color: rgba(40, 205, 65, 0.4) !important;
         backdrop-filter: blur(12px) saturate(200%) !important;
         border-color: rgba(40, 205, 65, 0.4) !important;
     }
     
     @media (-moz-bool-pref: "mod.minimal-adds.exit-menu-box-shadow") {
-        .titlebar-max:hover, .titlebar-restore:hover {
+        .titlebar-min:hover {
             box-shadow: 0 2px 12px rgba(40, 205, 65, 0.3) !important;
         }
     }
@@ -92,11 +92,11 @@
             background-color: var(--zen-colors-border) !important;
         }
         
-        .titlebar-min:hover {
+        .titlebar-max:hover, .titlebar-restore:hover {
             background-color: hsl(60, 50%, 50%) !important;
         }
 
-        .titlebar-max:hover, .titlebar-restore:hover {
+        .titlebar-min:hover {
             background-color: hsl(130, 50%, 40%) !important;
         }
 
